@@ -20,5 +20,5 @@ jobs:
       - name: npm Audit fix
         run: npm audit fix
       - name: Jest test
-        run: jest test
+        run: jest test-coverage
 
